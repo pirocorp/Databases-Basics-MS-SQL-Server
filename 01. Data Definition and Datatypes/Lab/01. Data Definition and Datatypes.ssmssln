@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P02_CreateTables", "P02_CreateTables\P02_CreateTables.ssmssqlproj", "{C11CB069-94F1-4E3F-8C2D-653F54397AC6}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P03_InsertSampleDataIntoDatabase", "P03_InsertSampleDataIntoDatabase\P03_InsertSampleDataIntoDatabase.ssmssqlproj", "{5EF2E976-D3C7-4EF0-B3E3-4F098FE83E2C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P01_ReadDataFromTables", "P01_ReadDataFromTables\P01_ReadDataFromTables.ssmssqlproj", "{014C4DC3-10A0-47D2-BF90-BF4C01AC79D5}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P04_CreateView", "P04_CreateView\P04_CreateView.ssmssqlproj", "{0C6F8F9B-76C8-494B-986A-BBCD205938F5}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P05_CreateFunction", "P05_CreateFunction\P05_CreateFunction.ssmssqlproj", "{569A5524-DF68-44FB-9DCD-11A6BBCC500C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P06_CreateProcedures", "P06_CreateProcedures\P06_CreateProcedures.ssmssqlproj", "{46033756-9124-4DDB-8A42-EB1EFCD82A80}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P07_CreateTransactionsTableAndTrigger", "P07_CreateTransactionsTableAndTrigger\P07_CreateTransactionsTableAndTrigger.ssmssqlproj", "{7879DEAE-4624-4DCC-882D-31E056D0A302}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3850FE4A-9A56-4ACD-B3B3-21309B1B3717}.Default|Default.ActiveCfg = Default
+		{C11CB069-94F1-4E3F-8C2D-653F54397AC6}.Default|Default.ActiveCfg = Default
+		{5EF2E976-D3C7-4EF0-B3E3-4F098FE83E2C}.Default|Default.ActiveCfg = Default
+		{014C4DC3-10A0-47D2-BF90-BF4C01AC79D5}.Default|Default.ActiveCfg = Default
+		{0C6F8F9B-76C8-494B-986A-BBCD205938F5}.Default|Default.ActiveCfg = Default
+		{569A5524-DF68-44FB-9DCD-11A6BBCC500C}.Default|Default.ActiveCfg = Default
+		{46033756-9124-4DDB-8A42-EB1EFCD82A80}.Default|Default.ActiveCfg = Default
+		{7879DEAE-4624-4DCC-882D-31E056D0A302}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
