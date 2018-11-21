@@ -7,6 +7,50 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P01_CreateDatabase", "P01_C
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P02_CreateTables", "P02_CreateTables\P02_CreateTables.ssmssqlproj", "{F69BF216-7B73-4B52-96F4-678B0612D6BE}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P03_AlterMinionsTable", "P03_AlterMinionsTable\P03_AlterMinionsTable.ssmssqlproj", "{660281A9-6F19-4A12-9981-9CC688AA4908}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P04_InsertRecordsBothTables", "P04_InsertRecordsBothTables\P04_InsertRecordsBothTables.ssmssqlproj", "{CDD312E0-F169-4EEF-9CEB-9A8053F222D7}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P05_TruncateTableMinions", "P05_TruncateTableMinions\P05_TruncateTableMinions.ssmssqlproj", "{8DDAED32-B471-474A-A2A2-213E9CF0ED62}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P06_DropAllTables", "P06_DropAllTables\P06_DropAllTables.ssmssqlproj", "{3B3B262E-D243-40A5-97A7-A283037B6EC4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P07_CreateTablePeople", "P07_CreateTablePeople\P07_CreateTablePeople.ssmssqlproj", "{1AC06F7C-C5A6-439A-A24E-919692EB2EAF}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P08_CreateTableUsers", "P08_CreateTableUsers\P08_CreateTableUsers.ssmssqlproj", "{080C1930-8C3A-45C4-B5F7-AE876CFEB428}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P09_ChangePrimaryKey", "P09_ChangePrimaryKey\P09_ChangePrimaryKey.ssmssqlproj", "{AB4D5BE5-85C6-4097-A213-B8B6BB969BFC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P10_AddCheckConstraint", "P10_AddCheckConstraint\P10_AddCheckConstraint.ssmssqlproj", "{5DC93CEA-D0E6-4C15-9395-491088292849}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P11_SetDefaultValueOfField", "P11_SetDefaultValueOfField\P11_SetDefaultValueOfField.ssmssqlproj", "{0E5131D7-763E-4F5D-9349-575351269576}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P12_SetUniqueField", "P12_SetUniqueField\P12_SetUniqueField.ssmssqlproj", "{19E66337-C2CF-43BE-BCF4-EE1B4DF49527}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P13_MoviesDatabase", "P13_MoviesDatabase\P13_MoviesDatabase.ssmssqlproj", "{8B9588A6-920C-4F78-A26C-59EF5222B2D3}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P14_CarRentalDatabase", "P14_CarRentalDatabase\P14_CarRentalDatabase.ssmssqlproj", "{F1F19DD6-A5D9-4729-81FB-88A8810BCC3F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P15_HotelDatabase", "P15_HotelDatabase\P15_HotelDatabase.ssmssqlproj", "{1ADEB8C4-9101-4CD8-B057-752C13C853C8}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P16_CreateSoftUniDatabase", "P16_CreateSoftUniDatabase\P16_CreateSoftUniDatabase.ssmssqlproj", "{C06FA7F7-8678-4A0B-B37C-7FE0662FC179}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P17_BackupDatabase", "P17_BackupDatabase\P17_BackupDatabase.ssmssqlproj", "{49F024A7-FE58-4EA7-BD71-F41472A61839}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P18_BasicInsert", "P18_BasicInsert\P18_BasicInsert.ssmssqlproj", "{E211291E-75E9-4EE8-9DCD-6FC33C5EEEE5}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P19_BasicSelectAllFields", "P19_BasicSelectAllFields\P19_BasicSelectAllFields.ssmssqlproj", "{04DE6E85-DFA0-482C-91DB-C25A46AC1A81}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P20_BasicSelectAllFieldsAndOrderThem", "P20_BasicSelectAllFieldsAndOrderThem\P20_BasicSelectAllFieldsAndOrderThem.ssmssqlproj", "{749FAF77-BC29-43DB-9343-7F6C805B9303}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P21_BasicSelectSomeFields", "P21_BasicSelectSomeFields\P21_BasicSelectSomeFields.ssmssqlproj", "{8804F86F-9906-47AB-A9F0-C74BAC71D97C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P22_IncreaseEmployeesSalary", "P22_IncreaseEmployeesSalary\P22_IncreaseEmployeesSalary.ssmssqlproj", "{497B4B28-D435-418B-A74D-D97D4DDD1406}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P23_DecreaseTaxRate", "P23_DecreaseTaxRate\P23_DecreaseTaxRate.ssmssqlproj", "{12401704-D71F-4DC2-A900-B758A2E1E995}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "P24_DeleteAllRecords", "P24_DeleteAllRecords\P24_DeleteAllRecords.ssmssqlproj", "{DFB44E95-28B8-47C9-B2DE-B5F16E0051D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -15,6 +59,28 @@ Global
 		{4A729EE4-0B13-46F9-9D42-73C560771DAB}.Default|Default.ActiveCfg = Default
 		{E59B7375-6757-42E2-AC55-FC6EA6EB7E28}.Default|Default.ActiveCfg = Default
 		{F69BF216-7B73-4B52-96F4-678B0612D6BE}.Default|Default.ActiveCfg = Default
+		{660281A9-6F19-4A12-9981-9CC688AA4908}.Default|Default.ActiveCfg = Default
+		{CDD312E0-F169-4EEF-9CEB-9A8053F222D7}.Default|Default.ActiveCfg = Default
+		{8DDAED32-B471-474A-A2A2-213E9CF0ED62}.Default|Default.ActiveCfg = Default
+		{3B3B262E-D243-40A5-97A7-A283037B6EC4}.Default|Default.ActiveCfg = Default
+		{1AC06F7C-C5A6-439A-A24E-919692EB2EAF}.Default|Default.ActiveCfg = Default
+		{080C1930-8C3A-45C4-B5F7-AE876CFEB428}.Default|Default.ActiveCfg = Default
+		{AB4D5BE5-85C6-4097-A213-B8B6BB969BFC}.Default|Default.ActiveCfg = Default
+		{5DC93CEA-D0E6-4C15-9395-491088292849}.Default|Default.ActiveCfg = Default
+		{0E5131D7-763E-4F5D-9349-575351269576}.Default|Default.ActiveCfg = Default
+		{19E66337-C2CF-43BE-BCF4-EE1B4DF49527}.Default|Default.ActiveCfg = Default
+		{8B9588A6-920C-4F78-A26C-59EF5222B2D3}.Default|Default.ActiveCfg = Default
+		{F1F19DD6-A5D9-4729-81FB-88A8810BCC3F}.Default|Default.ActiveCfg = Default
+		{1ADEB8C4-9101-4CD8-B057-752C13C853C8}.Default|Default.ActiveCfg = Default
+		{C06FA7F7-8678-4A0B-B37C-7FE0662FC179}.Default|Default.ActiveCfg = Default
+		{49F024A7-FE58-4EA7-BD71-F41472A61839}.Default|Default.ActiveCfg = Default
+		{E211291E-75E9-4EE8-9DCD-6FC33C5EEEE5}.Default|Default.ActiveCfg = Default
+		{04DE6E85-DFA0-482C-91DB-C25A46AC1A81}.Default|Default.ActiveCfg = Default
+		{749FAF77-BC29-43DB-9343-7F6C805B9303}.Default|Default.ActiveCfg = Default
+		{8804F86F-9906-47AB-A9F0-C74BAC71D97C}.Default|Default.ActiveCfg = Default
+		{497B4B28-D435-418B-A74D-D97D4DDD1406}.Default|Default.ActiveCfg = Default
+		{12401704-D71F-4DC2-A900-B758A2E1E995}.Default|Default.ActiveCfg = Default
+		{DFB44E95-28B8-47C9-B2DE-B5F16E0051D7}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
