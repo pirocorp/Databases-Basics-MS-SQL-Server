@@ -1,3 +1,3 @@
 ALTER TABLE Users
-ADD CONSTRAINT AtLeastFiveSymbols
+ADD CONSTRAINT atLeastFiveSymbols_Password
 CHECK(LEN([Password]) >= 5)
