@@ -1,4 +1,4 @@
---Create database Movies
+--Create database Hotel
 CREATE DATABASE Hotel
 
 USE Hotel
