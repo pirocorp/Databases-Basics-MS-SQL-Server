@@ -1,0 +1,3 @@
+ALTER TABLE Users
+ADD CONSTRAINT PK_Id_Username
+PRIMARY KEY (ID, Username)
