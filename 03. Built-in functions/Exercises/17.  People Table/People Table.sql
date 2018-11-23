@@ -29,8 +29,7 @@ VALUES
        '2010-01-06 00:00:00.000'
 );
 
-SELECT 
-	   [Name],
+SELECT [Name],
 	   DATEDIFF(YEAR, Birthday, GETDATE()) AS [Age in Years],
 	   DATEDIFF(MONTH, Birthday, GETDATE()) AS [Age in Months],
 	   DATEDIFF(DAY, Birthday, GETDATE()) AS [Age in Days], 
