@@ -27,6 +27,20 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "11. Average Interest", "11.
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "12. Rich Wizard, Poor Wizard", "12. Rich Wizard, Poor Wizard\12. Rich Wizard, Poor Wizard.ssmssqlproj", "{F6B22357-2CC9-4876-8842-5A82F90BE52C}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "13. Departments Total Salaries", "13. Departments Total Salaries\13. Departments Total Salaries.ssmssqlproj", "{1C394D22-5FCB-4282-B642-8F8944172714}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "14. Employees Minimum Salaries", "14. Employees Minimum Salaries\14. Employees Minimum Salaries.ssmssqlproj", "{D39A50FA-A1BF-45BB-8E23-92149EF3CBFD}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "15. Employees Average Salaries", "15. Employees Average Salaries\15. Employees Average Salaries.ssmssqlproj", "{FE7338E4-D090-4D45-B2BE-E240050D42E6}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "16. Employees Maximum Salaries", "16. Employees Maximum Salaries\16. Employees Maximum Salaries.ssmssqlproj", "{F473ED4B-EF02-4810-BD04-341D7CAFFC46}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "17. Employees Count Salaries", "17. Employees Count Salaries\17. Employees Count Salaries.ssmssqlproj", "{548A9937-E908-46AD-B506-319531796612}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "18. 3rd Highest Salary", "18. 3rd Highest Salary\18. 3rd Highest Salary.ssmssqlproj", "{4A2A6ACF-1A0F-4C14-B64D-CBA197ECA54D}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "19. Salary Challenge", "19. Salary Challenge\19. Salary Challenge.ssmssqlproj", "{5D7AF8A4-3C4D-47C3-A6ED-23633EC2CD10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -45,6 +59,13 @@ Global
 		{A2050C3C-815D-44E5-8480-CAD146D9366D}.Default|Default.ActiveCfg = Default
 		{5BCE0547-0F4A-4E9D-874B-E3964C7B3C8E}.Default|Default.ActiveCfg = Default
 		{F6B22357-2CC9-4876-8842-5A82F90BE52C}.Default|Default.ActiveCfg = Default
+		{1C394D22-5FCB-4282-B642-8F8944172714}.Default|Default.ActiveCfg = Default
+		{D39A50FA-A1BF-45BB-8E23-92149EF3CBFD}.Default|Default.ActiveCfg = Default
+		{FE7338E4-D090-4D45-B2BE-E240050D42E6}.Default|Default.ActiveCfg = Default
+		{F473ED4B-EF02-4810-BD04-341D7CAFFC46}.Default|Default.ActiveCfg = Default
+		{548A9937-E908-46AD-B506-319531796612}.Default|Default.ActiveCfg = Default
+		{4A2A6ACF-1A0F-4C14-B64D-CBA197ECA54D}.Default|Default.ActiveCfg = Default
+		{5D7AF8A4-3C4D-47C3-A6ED-23633EC2CD10}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
