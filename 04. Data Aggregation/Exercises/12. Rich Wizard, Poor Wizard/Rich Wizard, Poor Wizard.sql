@@ -19,3 +19,4 @@ SELECT SUM([Difference]) AS SumDifference
                     FROM WizzardDeposits
        ) 
 	AS Wizzards
+	GO
