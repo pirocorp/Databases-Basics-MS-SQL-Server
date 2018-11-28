@@ -21,6 +21,24 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08. Employee 24", "08. Empl
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "09. Employee Manager", "09. Employee Manager\09. Employee Manager.ssmssqlproj", "{AEA91A75-CA52-4F3E-B28C-CFB4EF4B7486}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "10. Employees Summary", "10. Employees Summary\10. Employees Summary.ssmssqlproj", "{251A32E3-1A63-4ACA-8FE5-9ED982D850D2}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "11. Min Average Salary", "11. Min Average Salary\11. Min Average Salary.ssmssqlproj", "{5520B6F3-9AE6-4B74-A363-501BAC171BFB}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "12. Highest Peaks in Bulgaria", "12. Highest Peaks in Bulgaria\12. Highest Peaks in Bulgaria.ssmssqlproj", "{741257C1-440E-4F37-8F6F-C3954DB58F2E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "13. Count Mountain Ranges", "13. Count Mountain Ranges\13. Count Mountain Ranges.ssmssqlproj", "{11A6A132-5D84-4DBB-838C-F5B6C47F8E35}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "14. Countries With or Without Rivers", "14. Countries With or Without Rivers\14. Countries With or Without Rivers.ssmssqlproj", "{D6DD58FE-1258-4568-A6F7-821939312838}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "15. Continents and Currencies", "15. Continents and Currencies\15. Continents and Currencies.ssmssqlproj", "{5E75FFDE-7B95-46C1-B462-8E7CDDE51376}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "16. Countries Without any Mountains", "16. Countries Without any Mountains\16. Countries Without any Mountains.ssmssqlproj", "{BEBE5BFA-8D66-4164-8D8B-AEF0E8FBD48F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "17. Highest Peak and Longest River by Country", "17. Highest Peak and Longest River by Country\17. Highest Peak and Longest River by Country.ssmssqlproj", "{4507BC61-B9E0-4248-9629-A2FD7B0EACB0}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "18. Highest Peak Name and Elevation by Country", "18. Highest Peak Name and Elevation by Country\18. Highest Peak Name and Elevation by Country.ssmssqlproj", "{DB4C75C8-A304-4D0F-80A5-0A3D26132237}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -36,6 +54,15 @@ Global
 		{AD7A2035-BD30-4E86-BAEA-DD4CA296C53A}.Default|Default.ActiveCfg = Default
 		{2553E61B-C12B-4785-8CB0-1B09313892FA}.Default|Default.ActiveCfg = Default
 		{AEA91A75-CA52-4F3E-B28C-CFB4EF4B7486}.Default|Default.ActiveCfg = Default
+		{251A32E3-1A63-4ACA-8FE5-9ED982D850D2}.Default|Default.ActiveCfg = Default
+		{5520B6F3-9AE6-4B74-A363-501BAC171BFB}.Default|Default.ActiveCfg = Default
+		{741257C1-440E-4F37-8F6F-C3954DB58F2E}.Default|Default.ActiveCfg = Default
+		{11A6A132-5D84-4DBB-838C-F5B6C47F8E35}.Default|Default.ActiveCfg = Default
+		{D6DD58FE-1258-4568-A6F7-821939312838}.Default|Default.ActiveCfg = Default
+		{5E75FFDE-7B95-46C1-B462-8E7CDDE51376}.Default|Default.ActiveCfg = Default
+		{BEBE5BFA-8D66-4164-8D8B-AEF0E8FBD48F}.Default|Default.ActiveCfg = Default
+		{4507BC61-B9E0-4248-9629-A2FD7B0EACB0}.Default|Default.ActiveCfg = Default
+		{DB4C75C8-A304-4D0F-80A5-0A3D26132237}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
