@@ -3,12 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # SQL Server Management Studio Solution File, Format Version 14.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "01. Employee Address", "01. Employee Address\01. Employee Address.ssmssqlproj", "{49505DEA-386F-4709-9E58-ABB51687309A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "02. Addresses with Towns", "02. Addresses with Towns\02. Addresses with Towns.ssmssqlproj", "{3BEC3578-9356-41B6-82C6-8F0D84E57266}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "03. Sales Employees", "03. Sales Employees\03. Sales Employees.ssmssqlproj", "{3203D7DC-283A-4E6C-8D66-993C4A83FF57}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "04. Employee Departments", "04. Employee Departments\04. Employee Departments.ssmssqlproj", "{7BE11A4F-804E-4BF9-BFAE-D7CE56FF41BF}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "05. Employees Without Projects", "05. Employees Without Projects\05. Employees Without Projects.ssmssqlproj", "{FA016D74-D26F-4607-AEA2-D301BFD0FA62}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "06. Employees Hired After", "06. Employees Hired After\06. Employees Hired After.ssmssqlproj", "{7C64703E-FD30-48AF-B905-544246674AAD}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "07. Employees With Project", "07. Employees With Project\07. Employees With Project.ssmssqlproj", "{AA4090E8-A58D-45FE-9387-745E6BB016A3}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08. Employee 24", "08. Employee 24\08. Employee 24.ssmssqlproj", "{AD7A2035-BD30-4E86-BAEA-DD4CA296C53A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "09. Employee Manager", "09. Employee Manager\09. Employee Manager.ssmssqlproj", "{AEA91A75-CA52-4F3E-B28C-CFB4EF4B7486}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E9950F7A-601D-4866-95E8-9D22D0D465D5}.Default|Default.ActiveCfg = Default
+		{49505DEA-386F-4709-9E58-ABB51687309A}.Default|Default.ActiveCfg = Default
+		{3BEC3578-9356-41B6-82C6-8F0D84E57266}.Default|Default.ActiveCfg = Default
+		{3203D7DC-283A-4E6C-8D66-993C4A83FF57}.Default|Default.ActiveCfg = Default
+		{7BE11A4F-804E-4BF9-BFAE-D7CE56FF41BF}.Default|Default.ActiveCfg = Default
+		{FA016D74-D26F-4607-AEA2-D301BFD0FA62}.Default|Default.ActiveCfg = Default
+		{7C64703E-FD30-48AF-B905-544246674AAD}.Default|Default.ActiveCfg = Default
+		{AA4090E8-A58D-45FE-9387-745E6BB016A3}.Default|Default.ActiveCfg = Default
+		{AD7A2035-BD30-4E86-BAEA-DD4CA296C53A}.Default|Default.ActiveCfg = Default
+		{2553E61B-C12B-4785-8CB0-1B09313892FA}.Default|Default.ActiveCfg = Default
+		{AEA91A75-CA52-4F3E-B28C-CFB4EF4B7486}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
