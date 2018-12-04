@@ -3,7 +3,73 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # SQL Server Management Studio Solution File, Format Version 14.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "01. Employees with Salary Above 35000", "01. Employees with Salary Above 35000\01. Employees with Salary Above 35000.ssmssqlproj", "{BAFDA44F-9BE7-4E3E-965A-B8E419DFC428}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "02.Employees with Salary Above Number", "02.Employees with Salary Above Number\02.Employees with Salary Above Number.ssmssqlproj", "{905881AE-7F46-4F96-9497-B253F603974F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "03. Town Names Starting With", "03. Town Names Starting With\03. Town Names Starting With.ssmssqlproj", "{DB2672C1-2491-4157-9421-BC5F61C0324A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "04. Employees from Town", "04. Employees from Town\04. Employees from Town.ssmssqlproj", "{15DED712-7427-43C5-9DC1-7B8AED99AE77}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "05. Salary Level Function", "05. Salary Level Function\05. Salary Level Function.ssmssqlproj", "{BD353321-6EEF-4F30-A4CC-46DB88AFF686}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "06. Employees by Salary Level", "06. Employees by Salary Level\06. Employees by Salary Level.ssmssqlproj", "{A1A0B942-8204-42DD-BEF6-A795C42C87D6}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "07. Define Function", "07. Define Function\07. Define Function.ssmssqlproj", "{8AD9D126-B790-4ABA-B645-537E8DF9E6AE}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08. Delete Employees and Departments", "08. Delete Employees and Departments\08. Delete Employees and Departments.ssmssqlproj", "{B7543A3E-8D48-4435-BBB6-8E5077820537}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "09. Find Full Name", "09. Find Full Name\09. Find Full Name.ssmssqlproj", "{9F812B28-17D3-46E7-BC67-BB0BB00DF3FF}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "10. People with Balance Higher Than", "10. People with Balance Higher Than\10. People with Balance Higher Than.ssmssqlproj", "{66E395F1-1F71-41A7-8D3B-0E9E03613242}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "11. Future Value Function", "11. Future Value Function\11. Future Value Function.ssmssqlproj", "{5CA80D47-41A4-4E40-9E74-054042012852}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "12. Calculating Interest", "12. Calculating Interest\12. Calculating Interest.ssmssqlproj", "{6587FB2E-9201-493B-9244-C539C459EA27}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "13. Cash in User Games Odd Rows", "13. Cash in User Games Odd Rows\13. Cash in User Games Odd Rows.ssmssqlproj", "{6682D5DB-71CA-4DED-90B5-D0F484C79EEC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "14. Create Table Logs", "14. Create Table Logs\14. Create Table Logs.ssmssqlproj", "{BDF09F27-CF83-4CC1-8BE4-8635686544EF}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "15. Create Table Emails", "15. Create Table Emails\15. Create Table Emails.ssmssqlproj", "{9A47B827-96F6-4D44-9D1D-5F44C3B7CCDB}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "16. Deposit Money", "16. Deposit Money\16. Deposit Money.ssmssqlproj", "{38878DBD-126D-493D-B80F-5D75547025BA}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "17. Withdraw Money Procedure", "17. Withdraw Money Procedure\17. Withdraw Money Procedure.ssmssqlproj", "{E97A1253-58EC-4632-9213-01D413533D61}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "18. Money Transfer", "18. Money Transfer\18. Money Transfer.ssmssqlproj", "{70A30A13-729E-4C85-AC19-AF02368FC52F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "19. Trigger", "19. Trigger\19. Trigger.ssmssqlproj", "{5938F577-47B2-4B46-A380-136F4F9BA9E1}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "20. Massive Shopping", "20. Massive Shopping\20. Massive Shopping.ssmssqlproj", "{AEEF4588-599D-4B16-89F8-67585B622F02}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAFDA44F-9BE7-4E3E-965A-B8E419DFC428}.Default|Default.ActiveCfg = Default
+		{905881AE-7F46-4F96-9497-B253F603974F}.Default|Default.ActiveCfg = Default
+		{DB2672C1-2491-4157-9421-BC5F61C0324A}.Default|Default.ActiveCfg = Default
+		{15DED712-7427-43C5-9DC1-7B8AED99AE77}.Default|Default.ActiveCfg = Default
+		{BD353321-6EEF-4F30-A4CC-46DB88AFF686}.Default|Default.ActiveCfg = Default
+		{A1A0B942-8204-42DD-BEF6-A795C42C87D6}.Default|Default.ActiveCfg = Default
+		{8AD9D126-B790-4ABA-B645-537E8DF9E6AE}.Default|Default.ActiveCfg = Default
+		{B7543A3E-8D48-4435-BBB6-8E5077820537}.Default|Default.ActiveCfg = Default
+		{9F812B28-17D3-46E7-BC67-BB0BB00DF3FF}.Default|Default.ActiveCfg = Default
+		{66E395F1-1F71-41A7-8D3B-0E9E03613242}.Default|Default.ActiveCfg = Default
+		{5CA80D47-41A4-4E40-9E74-054042012852}.Default|Default.ActiveCfg = Default
+		{6587FB2E-9201-493B-9244-C539C459EA27}.Default|Default.ActiveCfg = Default
+		{6682D5DB-71CA-4DED-90B5-D0F484C79EEC}.Default|Default.ActiveCfg = Default
+		{BDF09F27-CF83-4CC1-8BE4-8635686544EF}.Default|Default.ActiveCfg = Default
+		{9A47B827-96F6-4D44-9D1D-5F44C3B7CCDB}.Default|Default.ActiveCfg = Default
+		{38878DBD-126D-493D-B80F-5D75547025BA}.Default|Default.ActiveCfg = Default
+		{E97A1253-58EC-4632-9213-01D413533D61}.Default|Default.ActiveCfg = Default
+		{70A30A13-729E-4C85-AC19-AF02368FC52F}.Default|Default.ActiveCfg = Default
+		{5938F577-47B2-4B46-A380-136F4F9BA9E1}.Default|Default.ActiveCfg = Default
+		{9216FC46-86D3-4BFF-AA37-7F74DC22F378}.Default|Default.ActiveCfg = Default
+		{AEEF4588-599D-4B16-89F8-67585B622F02}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
