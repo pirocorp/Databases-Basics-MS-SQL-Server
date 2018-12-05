@@ -7,7 +7,7 @@ CREATE OR ALTER FUNCTION ufn_IsWordComprised(@SetOfChars NVARCHAR(MAX), @InputWo
 						   WHILE (@SetOfChars != '')
 						   BEGIN
 								   SET @CurrentChar = RIGHT(@SetOfChars, 1)
-	         					    IF (charindex(@CurrentChar, @Word) > 0)
+	         					    IF (CHARINDEX(@CurrentChar, @Word) > 0)
 	         					 BEGIN
 								       SET @Word = REPLACE(@Word, @CurrentChar, '')--stuff(@Word, charindex(@CurrentChar, @Word), 1, '')
 	         					   END

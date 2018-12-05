@@ -15,7 +15,7 @@ CREATE OR ALTER PROC usp_WithdrawMoney (@AccountId INT, @MoneyAmount DECIMAL(15,
 				  GO
 
 BEGIN TRANSACTION
-EXEC usp_WithdrawMoney 1, 133.1199
+EXEC usp_WithdrawMoney 1, 500.1199
 
 SELECT Balance
   FROM Accounts
