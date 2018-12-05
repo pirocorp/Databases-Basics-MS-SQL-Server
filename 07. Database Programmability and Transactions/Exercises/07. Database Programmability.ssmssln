@@ -43,6 +43,10 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "19. Trigger", "19. Trigger\
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "20. Massive Shopping", "20. Massive Shopping\20. Massive Shopping.ssmssqlproj", "{AEEF4588-599D-4B16-89F8-67585B622F02}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "21. Employees with Three Projects", "21. Employees with Three Projects\21. Employees with Three Projects.ssmssqlproj", "{8782C76C-F6D7-40D9-94BD-BE0F22EBD794}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "22. Delete Employees", "22. Delete Employees\22. Delete Employees.ssmssqlproj", "{7710192B-0119-4160-A29E-D919A930DBD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -67,8 +71,10 @@ Global
 		{E97A1253-58EC-4632-9213-01D413533D61}.Default|Default.ActiveCfg = Default
 		{70A30A13-729E-4C85-AC19-AF02368FC52F}.Default|Default.ActiveCfg = Default
 		{5938F577-47B2-4B46-A380-136F4F9BA9E1}.Default|Default.ActiveCfg = Default
-		{9216FC46-86D3-4BFF-AA37-7F74DC22F378}.Default|Default.ActiveCfg = Default
 		{AEEF4588-599D-4B16-89F8-67585B622F02}.Default|Default.ActiveCfg = Default
+		{8782C76C-F6D7-40D9-94BD-BE0F22EBD794}.Default|Default.ActiveCfg = Default
+		{0AF7369F-EF1D-487B-9C2C-CEE23DF8BF2E}.Default|Default.ActiveCfg = Default
+		{7710192B-0119-4160-A29E-D919A930DBD7}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

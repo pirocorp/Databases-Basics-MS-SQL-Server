@@ -19,6 +19,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="Alternative Solution.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIROMAN\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PIROMAN\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Alternative Solution.sql</FullPath>
+        </FileNode>
         <FileNode Name="People with Balance Higher Than.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIROMAN\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>PIROMAN\SQLEXPRESS</AssociatedConnSrvName>
