@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "01. Number of Users for Email Provider", "01. Number of Users for Email Provider\01. Number of Users for Email Provider.ssmssqlproj", "{DBF5B578-2EE6-41E2-9B95-91971D84AF0A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "02. All Users in Games", "02. All Users in Games\02. All Users in Games.ssmssqlproj", "{6FD9512D-AEA4-474A-805A-FBBB6693283D}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "03. Users in Games with Their Items", "03. Users in Games with Their Items\03. Users in Games with Their Items.ssmssqlproj", "{40217707-8BC8-4EE5-8643-199FEA043534}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "04. User in Games with Their Statistics", "04. User in Games with Their Statistics\04. User in Games with Their Statistics.ssmssqlproj", "{0D1A2D31-5EF8-4176-B5E0-9EAC9719A4C5}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "05. All Items with Greater than Average Statistics", "05. All Items with Greater than Average Statistics\05. All Items with Greater than Average Statistics.ssmssqlproj", "{0151F012-1B9B-4741-B244-AF5698028B98}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "06. Display All Items about Forbidden Game Type", "06. Display All Items about Forbidden Game Type\06. Display All Items about Forbidden Game Type.ssmssqlproj", "{0A6E2381-636A-4C3C-AE1D-B32DB33A0BA2}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "07. Buy Items for User in Game", "07. Buy Items for User in Game\07. Buy Items for User in Game.ssmssqlproj", "{216BEE6D-2B67-4814-A9B8-84173354B5A1}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08. Peaks and Mountains", "08. Peaks and Mountains\08. Peaks and Mountains.ssmssqlproj", "{67E9BF76-33DE-4952-AD53-BA2D545D2409}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "09. Peaks with Mountain, Country and Continent", "09. Peaks with Mountain, Country and Continent\09. Peaks with Mountain, Country and Continent.ssmssqlproj", "{C745B300-2E6C-4666-96A6-FDFB37C56668}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "10. Rivers by Country", "10. Rivers by Country\10. Rivers by Country.ssmssqlproj", "{1BFD4499-B809-492E-BA5A-B28197FF9EC5}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "11. Count of Countries by Currency", "11. Count of Countries by Currency\11. Count of Countries by Currency.ssmssqlproj", "{AB6D7372-118C-44B8-AE56-F7CD3461C1F3}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "12. Population and Area by Continent", "12. Population and Area by Continent\12. Population and Area by Continent.ssmssqlproj", "{30DE6807-8D28-4DEC-858B-665E1B0370FF}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "13. Monasteries by Country", "13. Monasteries by Country\13. Monasteries by Country.ssmssqlproj", "{54A49A72-7D86-44A9-ADEE-05EA54167A33}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "14. Monasteries by Continents and Countries", "14. Monasteries by Continents and Countries\14. Monasteries by Continents and Countries.ssmssqlproj", "{84764476-4F8A-4DBD-B88E-C297D9F610D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E176D16F-FB34-45F2-A927-9397ECE30DE5}.Default|Default.ActiveCfg = Default
+		{DBF5B578-2EE6-41E2-9B95-91971D84AF0A}.Default|Default.ActiveCfg = Default
+		{6FD9512D-AEA4-474A-805A-FBBB6693283D}.Default|Default.ActiveCfg = Default
+		{40217707-8BC8-4EE5-8643-199FEA043534}.Default|Default.ActiveCfg = Default
+		{0D1A2D31-5EF8-4176-B5E0-9EAC9719A4C5}.Default|Default.ActiveCfg = Default
+		{0151F012-1B9B-4741-B244-AF5698028B98}.Default|Default.ActiveCfg = Default
+		{0A6E2381-636A-4C3C-AE1D-B32DB33A0BA2}.Default|Default.ActiveCfg = Default
+		{216BEE6D-2B67-4814-A9B8-84173354B5A1}.Default|Default.ActiveCfg = Default
+		{67E9BF76-33DE-4952-AD53-BA2D545D2409}.Default|Default.ActiveCfg = Default
+		{C745B300-2E6C-4666-96A6-FDFB37C56668}.Default|Default.ActiveCfg = Default
+		{1BFD4499-B809-492E-BA5A-B28197FF9EC5}.Default|Default.ActiveCfg = Default
+		{AB6D7372-118C-44B8-AE56-F7CD3461C1F3}.Default|Default.ActiveCfg = Default
+		{30DE6807-8D28-4DEC-858B-665E1B0370FF}.Default|Default.ActiveCfg = Default
+		{54A49A72-7D86-44A9-ADEE-05EA54167A33}.Default|Default.ActiveCfg = Default
+		{84764476-4F8A-4DBD-B88E-C297D9F610D4}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
