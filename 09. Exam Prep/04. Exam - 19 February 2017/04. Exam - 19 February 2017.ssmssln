@@ -5,13 +5,70 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "01. DDL", "01. DDL\01. DDL.ssmssqlproj", "{7AF39097-8DAA-42E2-B7A3-A6D1FD900B74}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "02. Insert", "02. Insert\02. Insert.ssmssqlproj", "{11716273-2E1A-4180-89C6-D820AB0BDE78}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "03. Update", "03. Update\03. Update.ssmssqlproj", "{CCF10839-4D92-4E01-8CC6-E6A809C0C644}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "04. Delete", "04. Delete\04. Delete.ssmssqlproj", "{93F5B2FE-132D-4C38-B609-0D4B6B2D46B4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "05. Products By Price", "05. Products By Price\05. Products By Price.ssmssqlproj", "{AD348CB7-6B8B-44FA-BFFC-E6E182CE7BC8}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "06. Ingredients", "06. Ingredients\06. Ingredients.ssmssqlproj", "{BF0F3980-5724-412C-B79D-DB0D5A75E65A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "07. Ingredients from Bulgaria and Greece", "07. Ingredients from Bulgaria and Greece\07. Ingredients from Bulgaria and Greece.ssmssqlproj", "{5FCF9877-E253-4536-8849-A278C6D693E2}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08. Best Rated Products", "08. Best Rated Products\08. Best Rated Products.ssmssqlproj", "{C79E6907-FD9E-4881-A534-680F539A7A32}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "09. Negative Feedback", "09. Negative Feedback\09. Negative Feedback.ssmssqlproj", "{2DE2B499-FC71-4693-AE82-3DE82B90CC96}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "10. Customers without Feedback", "10. Customers without Feedback\10. Customers without Feedback.ssmssqlproj", "{E658D468-819F-4106-A65A-0C7692DA288A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "11. Honorable Mentions", "11. Honorable Mentions\11. Honorable Mentions.ssmssqlproj", "{AAE307D1-F2BE-4F4E-8295-6F81819C19C1}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "12. Customers by Criteria", "12. Customers by Criteria\12. Customers by Criteria.ssmssqlproj", "{5629662A-8E4A-4631-9569-101A22C5E5BF}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "13. Middle Range Distributors", "13. Middle Range Distributors\13. Middle Range Distributors.ssmssqlproj", "{9DC9E6D7-D7E5-4260-928A-F674BF421C44}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "14. The Most Positive Country", "14. The Most Positive Country\14. The Most Positive Country.ssmssqlproj", "{AEC09970-FE32-4CB2-BC5B-1D0642345A4A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "15. Country Representative", "15. Country Representative\15. Country Representative.ssmssqlproj", "{2050D9D0-870D-4DC4-8CCA-B79E4905D4F0}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "16. Customers With Countries", "16. Customers With Countries\16. Customers With Countries.ssmssqlproj", "{7FBC33FF-85DC-4B09-9FB4-418B6FEC62D2}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "17. Feedback by Product Name", "17. Feedback by Product Name\17. Feedback by Product Name.ssmssqlproj", "{C6855208-C112-4BB8-9D41-F1C669F2DFA4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "18. Send Feedback", "18. Send Feedback\18. Send Feedback.ssmssqlproj", "{E50459EA-2D5B-433C-9C3B-BCB3FDB08DB2}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "19. Delete Products", "19. Delete Products\19. Delete Products.ssmssqlproj", "{91E7360D-9CB6-482E-A291-5581F6B0B0F3}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "20. Products by One Distributor", "20. Products by One Distributor\20. Products by One Distributor.ssmssqlproj", "{737B4F4F-45DE-48EA-97D5-8461F806E25A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C815F310-AC18-4FE0-8C64-9BC06BC25336}.Default|Default.ActiveCfg = Default
 		{7AF39097-8DAA-42E2-B7A3-A6D1FD900B74}.Default|Default.ActiveCfg = Default
+		{A583AEB0-8A97-4793-A556-D4C0E10798B8}.Default|Default.ActiveCfg = Default
+		{11716273-2E1A-4180-89C6-D820AB0BDE78}.Default|Default.ActiveCfg = Default
+		{CCF10839-4D92-4E01-8CC6-E6A809C0C644}.Default|Default.ActiveCfg = Default
+		{93F5B2FE-132D-4C38-B609-0D4B6B2D46B4}.Default|Default.ActiveCfg = Default
+		{AD348CB7-6B8B-44FA-BFFC-E6E182CE7BC8}.Default|Default.ActiveCfg = Default
+		{BF0F3980-5724-412C-B79D-DB0D5A75E65A}.Default|Default.ActiveCfg = Default
+		{5FCF9877-E253-4536-8849-A278C6D693E2}.Default|Default.ActiveCfg = Default
+		{C79E6907-FD9E-4881-A534-680F539A7A32}.Default|Default.ActiveCfg = Default
+		{2DE2B499-FC71-4693-AE82-3DE82B90CC96}.Default|Default.ActiveCfg = Default
+		{E658D468-819F-4106-A65A-0C7692DA288A}.Default|Default.ActiveCfg = Default
+		{AAE307D1-F2BE-4F4E-8295-6F81819C19C1}.Default|Default.ActiveCfg = Default
+		{5629662A-8E4A-4631-9569-101A22C5E5BF}.Default|Default.ActiveCfg = Default
+		{9DC9E6D7-D7E5-4260-928A-F674BF421C44}.Default|Default.ActiveCfg = Default
+		{AEC09970-FE32-4CB2-BC5B-1D0642345A4A}.Default|Default.ActiveCfg = Default
+		{2050D9D0-870D-4DC4-8CCA-B79E4905D4F0}.Default|Default.ActiveCfg = Default
+		{7FBC33FF-85DC-4B09-9FB4-418B6FEC62D2}.Default|Default.ActiveCfg = Default
+		{C6855208-C112-4BB8-9D41-F1C669F2DFA4}.Default|Default.ActiveCfg = Default
+		{E50459EA-2D5B-433C-9C3B-BCB3FDB08DB2}.Default|Default.ActiveCfg = Default
+		{91E7360D-9CB6-482E-A291-5581F6B0B0F3}.Default|Default.ActiveCfg = Default
+		{737B4F4F-45DE-48EA-97D5-8461F806E25A}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
