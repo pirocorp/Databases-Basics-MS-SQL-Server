@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "01. DDL", "01. DDL\01. DDL.ssmssqlproj", "{29ABAEB4-B19B-4A3D-B284-E9B5BB9B3737}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "02. Insert", "02. Insert\02. Insert.ssmssqlproj", "{EB3A245E-A87C-4A0B-8876-08BFA9195068}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "03. Update", "03. Update\03. Update.ssmssqlproj", "{57EF669B-8620-452F-A524-334EA981544C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "04. Delete", "04. Delete\04. Delete.ssmssqlproj", "{9BCC7F21-2114-4DAF-BB77-22FD6CFC0C36}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "05. Richest People", "05. Richest People\05. Richest People.ssmssqlproj", "{8D9BF662-CC5D-48E0-9FB6-709DDBA084A6}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "06. Cool Phone Numbers", "06. Cool Phone Numbers\06. Cool Phone Numbers.ssmssqlproj", "{CA15AC86-D825-4988-8F8A-85AFABA27FB4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "07. Employee Statistics", "07. Employee Statistics\07. Employee Statistics.ssmssqlproj", "{DF4188DC-4E3B-4E74-AFA8-DD7C2208EB5C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08. Hard Workers Club", "08. Hard Workers Club\08. Hard Workers Club.ssmssqlproj", "{CD51522A-95D7-4DB7-95B2-327BDC58623C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "09. The Most Expensive Order", "09. The Most Expensive Order\09. The Most Expensive Order.ssmssqlproj", "{4D5A68C0-4AF6-488E-90D9-DC4A4AC55BA2}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "10. Rich Item, Poor Item", "10. Rich Item, Poor Item\10. Rich Item, Poor Item.ssmssqlproj", "{F042FB9F-E34D-4A30-B739-F2C0384CA1D3}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "11. Cashiers", "11. Cashiers\11. Cashiers.ssmssqlproj", "{635E720C-33A5-432A-936B-69F35FED359F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "12. Lazy Employees", "12. Lazy Employees\12. Lazy Employees.ssmssqlproj", "{67F01197-A13E-4F91-8EE1-68F078E3153A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "13. Sellers", "13. Sellers\13. Sellers.ssmssqlproj", "{B982190E-593F-401B-889A-B74161928B60}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "14. Tough Days", "14. Tough Days\14. Tough Days.ssmssqlproj", "{B84169CF-E6DE-469E-B486-7C13BB6C45B7}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "15. Top Order per Employee", "15. Top Order per Employee\15. Top Order per Employee.ssmssqlproj", "{B0C52C1C-C33A-4B96-BE01-561AA31E92ED}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "16. Average Profit per Day", "16. Average Profit per Day\16. Average Profit per Day.ssmssqlproj", "{21C0E12A-3D25-4DED-8C0B-9468DF34ACE4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "17. Top Products", "17. Top Products\17. Top Products.ssmssqlproj", "{222C95B8-81B3-4531-AEAF-CB5150CE8A2E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "18. Promotion Days", "18. Promotion Days\18. Promotion Days.ssmssqlproj", "{B9577A91-D263-4E68-A497-D3DFA6099B7B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "19. Cancel Order", "19. Cancel Order\19. Cancel Order.ssmssqlproj", "{C721F60E-B755-450C-B93D-DFD0AD9C7FF7}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "20. Deleted Orders", "20. Deleted Orders\20. Deleted Orders.ssmssqlproj", "{B2D7A665-E943-4181-BC22-4C7DB36F2454}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29ABAEB4-B19B-4A3D-B284-E9B5BB9B3737}.Default|Default.ActiveCfg = Default
+		{AA191C6B-E852-4B3F-8503-DC2DE30BDA80}.Default|Default.ActiveCfg = Default
+		{EB3A245E-A87C-4A0B-8876-08BFA9195068}.Default|Default.ActiveCfg = Default
+		{57EF669B-8620-452F-A524-334EA981544C}.Default|Default.ActiveCfg = Default
+		{9BCC7F21-2114-4DAF-BB77-22FD6CFC0C36}.Default|Default.ActiveCfg = Default
+		{8D9BF662-CC5D-48E0-9FB6-709DDBA084A6}.Default|Default.ActiveCfg = Default
+		{CA15AC86-D825-4988-8F8A-85AFABA27FB4}.Default|Default.ActiveCfg = Default
+		{DF4188DC-4E3B-4E74-AFA8-DD7C2208EB5C}.Default|Default.ActiveCfg = Default
+		{CD51522A-95D7-4DB7-95B2-327BDC58623C}.Default|Default.ActiveCfg = Default
+		{4D5A68C0-4AF6-488E-90D9-DC4A4AC55BA2}.Default|Default.ActiveCfg = Default
+		{F042FB9F-E34D-4A30-B739-F2C0384CA1D3}.Default|Default.ActiveCfg = Default
+		{635E720C-33A5-432A-936B-69F35FED359F}.Default|Default.ActiveCfg = Default
+		{67F01197-A13E-4F91-8EE1-68F078E3153A}.Default|Default.ActiveCfg = Default
+		{B982190E-593F-401B-889A-B74161928B60}.Default|Default.ActiveCfg = Default
+		{B84169CF-E6DE-469E-B486-7C13BB6C45B7}.Default|Default.ActiveCfg = Default
+		{B0C52C1C-C33A-4B96-BE01-561AA31E92ED}.Default|Default.ActiveCfg = Default
+		{21C0E12A-3D25-4DED-8C0B-9468DF34ACE4}.Default|Default.ActiveCfg = Default
+		{222C95B8-81B3-4531-AEAF-CB5150CE8A2E}.Default|Default.ActiveCfg = Default
+		{B9577A91-D263-4E68-A497-D3DFA6099B7B}.Default|Default.ActiveCfg = Default
+		{C721F60E-B755-450C-B93D-DFD0AD9C7FF7}.Default|Default.ActiveCfg = Default
+		{B2D7A665-E943-4181-BC22-4C7DB36F2454}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
