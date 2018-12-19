@@ -1,0 +1,1 @@
+CREATE OR ALTER tr_UserGameItemsInsert
