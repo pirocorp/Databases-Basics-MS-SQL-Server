@@ -21,7 +21,8 @@
 	ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED 
 	TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
 	PARTICULAR PURPOSE.
-============================================================================*/USE [Credit];
+============================================================================*/
+USE [Credit];
 GO
 
 -- Include actual execution plan

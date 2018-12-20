@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SoftUni Transactions and Concurrency">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local)\sql2012:BULPROS\Boris.Hristov">
+          <Created>2015-02-17T15:05:44.9435204+02:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)\sql2012</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="LTBPSOF051\sql2012:BULPROS\Boris.Hristov">
+          <Created>2015-02-17T15:05:50.701535+02:00</Created>
+          <Type>SQL</Type>
+          <Server>LTBPSOF051\sql2012</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0.0. Simple Transaction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LTBPSOF051\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LTBPSOF051\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0.0. Simple Transaction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.1. Statements and errors.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LTBPSOF051\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LTBPSOF051\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0.1. Statements and errors.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0.2. XACT_ABORT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LTBPSOF051\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LTBPSOF051\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0.2. XACT_ABORT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1.1. Monitoring Locking and blocking.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LTBPSOF051\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LTBPSOF051\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1.1. Monitoring Locking and blocking.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1.2. Deadlock Session 1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LTBPSOF051\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LTBPSOF051\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1.2. Deadlock Session 1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1.3. Deadlock Session 2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LTBPSOF051\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LTBPSOF051\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1.3. Deadlock Session 2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1.4. Lock_Escalation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LTBPSOF051\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LTBPSOF051\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1.4. Lock_Escalation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.1. Read Uncommited.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LTBPSOF051\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LTBPSOF051\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.1. Read Uncommited.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.2 Repeatable Read.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LTBPSOF051\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LTBPSOF051\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.2 Repeatable Read.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.3. Serializable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LTBPSOF051\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LTBPSOF051\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.3. Serializable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.4. READ_COMMITTED_SNAPSHOT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LTBPSOF051\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LTBPSOF051\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.4. READ_COMMITTED_SNAPSHOT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.5 SNAPSHOT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LTBPSOF051\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LTBPSOF051\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.5 SNAPSHOT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.6 Update Conflict.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LTBPSOF051\sql2012:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LTBPSOF051\sql2012</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.6 Update Conflict.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
