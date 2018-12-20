@@ -26,8 +26,8 @@
           <FullPath>1.1 Optimize For Ad-hoc Workloads.sql</FullPath>
         </FileNode>
         <FileNode Name="1.2 Backup Compression.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIROMAN\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PIROMAN\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>1.2 Backup Compression.sql</FullPath>
         </FileNode>
@@ -38,32 +38,32 @@
           <FullPath>1.3 MAXDOP and Cost Threshold of Parallelism.sql</FullPath>
         </FileNode>
         <FileNode Name="1.4 Instant File Initialization.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIROMAN\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PIROMAN\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>1.4 Instant File Initialization.sql</FullPath>
         </FileNode>
         <FileNode Name="1.5 Transaction Log VLFs.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIROMAN\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PIROMAN\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>1.5 Transaction Log VLFs.sql</FullPath>
         </FileNode>
         <FileNode Name="2.1 SELECT star.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIROMAN\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PIROMAN\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>2.1 SELECT star.sql</FullPath>
         </FileNode>
         <FileNode Name="2.2 Unnecessary sorts.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIROMAN\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PIROMAN\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>2.2 Unnecessary sorts.sql</FullPath>
         </FileNode>
         <FileNode Name="2.3 Needless DISTINCT.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIROMAN\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PIROMAN\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>2.3 Needless DISTINCT.sql</FullPath>
         </FileNode>
