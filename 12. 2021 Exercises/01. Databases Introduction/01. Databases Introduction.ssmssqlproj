@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="01. Databases Introduction">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="PIRO\SQLEXPRESS2019:PIRO\Piroman">
+          <Created>2021-01-30T11:38:20.1790823+01:00</Created>
+          <Type>SQL</Type>
+          <Server>PIRO\SQLEXPRESS2019</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>Minions</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Task 13.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIRO\SQLEXPRESS2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PIRO\SQLEXPRESS2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Task 13.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Task 14.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIRO\SQLEXPRESS2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PIRO\SQLEXPRESS2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Task 14.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Task 15, 23.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIRO\SQLEXPRESS2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PIRO\SQLEXPRESS2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Task 15, 23.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tasks 1-6.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIRO\SQLEXPRESS2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PIRO\SQLEXPRESS2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tasks 1-6.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tasks 16-22.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIRO\SQLEXPRESS2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PIRO\SQLEXPRESS2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tasks 16-22.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tasks 7-12.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PIRO\SQLEXPRESS2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PIRO\SQLEXPRESS2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tasks 7-12.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
