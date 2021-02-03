@@ -14,7 +14,7 @@
 GROUP BY DepartmentID
 
 --Standart Solution
---This create ne table and copy all entities from employees for given condition
+--This create new table and copy all entities from employees for given condition
 SELECT * INTO [EmployeesAS] FROM Employees
 WHERE [Salary] > 30000
 
