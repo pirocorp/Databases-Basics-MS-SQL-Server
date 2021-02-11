@@ -232,11 +232,28 @@ AS
 	DECLARE @orderId INT
 	SET @orderId = (SELECT [O].[OrderId] FROM [Orders] AS [O] WHERE [O].[JobId] = @jobId)
 
+	IF @orderId IS NULL
+		SET @orderId = (SELECT MAX([OrderId]) FROM [Orders]) + 1
+
 	IF (SELECT [IssueDate] FROM [Orders] WHERE [OrderId] = @orderId) IS NULL
+		IF (SELECT [PartId] FROM [OrderParts] WHERE [PartId] = @partId AND [OrderId] = @orderId) IS NOT NULL
 			UPDATE [OrderParts] SET [Quantity] += @quantity WHERE [OrderId] = @orderId AND [PartId] = @partId
+		ELSE 
+			INSERT INTO [OrderParts] VALUES(@orderId, @partId, @quantity)
 	ELSE
 		INSERT INTO [OrderParts] VALUES(@orderId, @partId, @quantity)
 GO
+
+DECLARE @err_msg AS NVARCHAR(MAX);
+BEGIN TRY
+  EXEC usp_PlaceOrder 1, 'ZeroQuantity', 0
+END TRY
+
+BEGIN CATCH
+  SET @err_msg = ERROR_MESSAGE();
+  SELECT @err_msg
+END CATCH
+
 
 -- Task 12
 CREATE FUNCTION [udf_GetCost] (@jobId INT)
