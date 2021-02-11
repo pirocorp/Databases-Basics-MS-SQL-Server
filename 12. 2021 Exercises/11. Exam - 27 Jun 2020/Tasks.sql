@@ -240,13 +240,17 @@ GO
 
 -- Task 12
 CREATE FUNCTION [udf_GetCost] (@jobId INT)
-RETURNS TABLE AS
-RETURN
-(
-		WITH CTE_OrdersForJob AS (
-				SELECT [OP].[OrderId] AS [Id]
-					  ,SUM([OP].[Quantity] * [P].[Price]) AS [Result]
-					  --,*
+RETURNS DECIMAL(14, 2)
+AS
+BEGIN
+	DECLARE @result DECIMAL(14, 2);
+
+	SET @result = (SELECT 
+					  [Result] = 
+							CASE
+								WHEN SUM([OP].[Quantity] * [P].[Price]) IS NULL THEN 0
+								ELSE SUM([OP].[Quantity] * [P].[Price])
+							END
 				  FROM [Jobs] AS [J]
 			 LEFT JOIN [Orders] AS [O]
 					ON [J].[JobId] = [O].[JobId]
@@ -255,24 +259,12 @@ RETURN
 			 LEFT JOIN [Parts] AS [P]
 					ON [OP].[PartId] = [P].[PartId]
 				 WHERE [J].[JobId] = @jobId
-			  GROUP BY [OP].[OrderId]
-		)
-
-		SELECT [Id] = 
-					CASE
-						WHEN [CTE].[Id] IS NULL THEN 0
-						ELSE [CTE].[Id]
-					END 
-			  ,[Result] = 
-					CASE
-						WHEN [CTE].[Result] IS NULL THEN 0 
-						ELSE [CTE].[Result]						
-					END 
-		  FROM CTE_OrdersForJob AS [CTE]
-)
+			  GROUP BY [J].[JobId])
+	RETURN @result
+END
 GO
 
-SELECT * FROM [udf_GetCost](1)
+SELECT dbo.udf_GetCost(2)
 
 DROP FUNCTION udf_GetCost
 GO
