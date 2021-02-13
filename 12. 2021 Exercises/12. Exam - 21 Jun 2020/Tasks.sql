@@ -218,7 +218,7 @@ BEGIN
 									  JOIN [Trips] AS [T]
 										ON [R].[Id] = [T].[RoomId]
 									 WHERE [R].[HotelId] = 94
-									   AND [T].[ArrivalDate] <= CONVERT(DATE, '2015-07-26') AND [T].[ReturnDate] >= CONVERT(DATE, '2015-07-26') AND [T].[CancelDate] IS NULL)
+									   AND [T].[ArrivalDate] <= CONVERT(DATE, @Date) AND [T].[ReturnDate] >= CONVERT(DATE, @Date) AND [T].[CancelDate] IS NULL)
 		  ORDER BY ([H].[BaseRate] + [R].[Price]) * @People DESC)
 		
 	IF @RoomId IS NULL
